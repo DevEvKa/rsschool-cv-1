@@ -32,3 +32,11 @@
 6.  **Experience:**  
 - Take free courses and complete projects on [htmlacademy.ru](https://htmlacademy.ru/), [codecademy.com](https://www.codecademy.com/), [stepik.org](https://welcome.stepik.org/ru)
 - Train programming skills on [codewars.com](https://www.codewars.com/)
+
+
+7.  **Education:**  Philologist (Germanic Philology), Volzhsky University after V.N. Tatischev, 2002-2007  
+  
+
+8.  **English:**  B1-Intermediate level (I'm working as a contact-center operator of Japanese Bank. So not only Russian-speaking clients but English-speaking customers of the Bank call us too and we help them to solve their problems.)
+
+
