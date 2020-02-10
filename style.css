@@ -1,0 +1,98 @@
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  color: #222222;  
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+ 
+header,
+footer {  
+  background: linear-gradient(to left, #B0E0E6, #FFC0CB);
+  padding: 20px 0;
+  margin: 5px 0;
+}
+
+.photo {
+  display: block;
+}
+
+ .photo-text {
+  width: 580px;
+  font-size: 20px;
+  text-align: left;  
+  margin-left: 300px;  
+ }
+
+.photo-text h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.photo img {
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 70px;
+}
+
+.contacts {
+  margin: 5px 0 5px 300px;
+}
+
+.contacts-icon {
+  position:relative;
+  top: 20px;
+}
+
+.contacts-text {
+  font-size: 14px;
+  margin-left: 28px;
+}
+
+section {
+  border: 10px solid transparent;
+  border-image: linear-gradient(to left, #B0E0E6, #FFC0CB);
+  border-image-slice: 1;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ li::before {
+  display: inline-block;
+  content: "\2713";
+  padding-right: 3px;
+  color: #B0E0E6;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #87CEEB;
+}
+
+a:visited {
+  color: #FF69B4;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
