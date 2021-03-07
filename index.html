@@ -11,74 +11,90 @@
 <body>
     <div class="container">
         <header>
-            <div class="photo">
-                <img src="img/my_photo.jpg" alt="My photo" width="150" height="200" />
-                <div class="photo-text">
-                    <h1>Evgeniya Karabanova</h1>
-                    <h2>Front-end developer</h2>
+            <div class="about">
+                <div class="about_photo">
+                    <img src="img/my_photo.jpg"
+                        alt="A girl with brown hair and grey eyes near the ancient destroyed stone wall" />
                 </div>
-            </div>
-            <div class="contacts">
-                <div>
-                    <img class="contacts-icon" src="img/location.png" alt="место жительства" width="23" height="20" />
-                    <p class="contacts-text">Togliatty, Russia</p>
-                </div>
-                <div>
-                    <img class="contacts-icon" src="img/mail.png" alt="Адрес электронной почты" width="23"
-                        height="20" />
-                    <p class="contacts-text"><a href="mailto:karabanovaep@yandex.ru">karabanovaep@yandex.ru</a></p>
-                </div>
-                <div>
-                    <img class="contacts-icon" src="img/phone.png" alt="Номер телфона" width="23" height="20" />
-                    <p class="contacts-text">+79372144882</p>
+                <div class="about_text">
+                    <h1 class="about_name">Evgeniia Karabanova</h1>
+                    <h2 class="about_profession">Front-end developer</h2>
+                    <ul class="about_contacts">
+                        <li>
+                            <img class="contacts-icon" src="img/location.png" alt="место жительства" />
+                            <p class="contacts-text">Togliatty, Russia</p>
+                        </li>
+                        <li>
+                            <img class="contacts-icon" src="img/mail.png" alt="Адрес электронной почты" />
+                            <p class="contacts-text"><a href="mailto:karabanovaep@yandex.ru">karabanovaep@yandex.ru</a>
+                            </p>
+                        </li>
+                        <li>
+                            <img class="contacts-icon" src="img/phone.png" alt="Номер телфона" />
+                            <p class="contacts-text"><a href="tel:+79372144882">+7 9372 14 48 82</a></p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </header>
         <main>
             <section class="summary">
-                <h3>Summary</h3>
+                <h3 class="section_header">Summary</h3>
                 <p>I am a results-oriented junior software developer with huge desire to improve skills. I am constantly
                     striving to learn new technologies and looking for the ways to make myself more professional in this
                     rapidly changing industry. I also understand the importance of creating highly readable and easily
                     maintainable source code. </p>
             </section>
             <section class="skills">
-                <h3>Skills</h3>
-                <ul>
-                    <li>Knowledge of HTML and flexible CSS</li>
-                    <li>Knowledge of CSS preprocessor (Less)</li>
-                    <li>Basic knowledge of JavaScript</li>
-                    <li>Experience with graphic editor (Photoshop)</li>
-                    <li>Experience working with SVG</li>
-                    <li>Experience working with UI framework (Bootstrap)</li>
-                    <li>Experience with a version control system (GIT)</li>
-                    <li>Attention to detail, flexible with assignments</li>
-                    <li>Positive attitude and ability to take ownership when it comes to solve problems</li>
+                <h3 class="section_header">Skills</h3>
+                <ul class="skills_items">
+                    <li class="skills_item">HTML5</li>
+                    <li class="skills_item">CSS3</li>
+                    <li class="skills_item">Bootstrap</li>
+                    <li class="skills_item">SVG</li>
+                    <li class="skills_item">Sass</li>
+                    <li class="skills_item">JavaScript(basic)</li>
+                    <li class="skills_item">Adobe Photoshop</li>
+                    <li class="skills_item">Figma</li>
+                    <li class="skills_item">GIT</li>
+                    <li class="skills_item">JSON</li>
+                    <li class="skills_item">XML</li>
+                    <li class="skills_item">SQL</li>
+                    <li class="skills_item">Software testing</li>
+                    <li class="skills_item">Highly organized</li>
+                    <li class="skills_item">Attention to details</li>
+                    <li class="skills_item">Critical thinking</li>
+                    <li class="skills_item">Great in communication</li>
+                    <li class="skills_item">Positive attitude</li>
                 </ul>
             </section>
-            <section class="experience in IT">
-                <h3>Experience in IT</h3>
+            <section class="experience">
+                <h3 class="section_header">Experience</h3>
                 <ul>
                     <li>Take free courses and complete projects on <a href="https://htmlacademy.ru/"
-                            target="_blanc">htmlacademy.ru</a>, <a href="https://www.codecademy.com/"
-                            target="_blanc">codecademy.com</a>, <a href="https://welcome.stepik.org/ru"
-                            target="_blanc">stepik.org</a></li>
-                    <li>Train programming skills on <a href="https://www.codewars.com/" target="_blanc">codewars.com</a>
+                            target="blanc">htmlacademy.ru</a>, <a href="https://www.codecademy.com/"
+                            target="blanc">codecademy.com</a>, <a href="https://welcome.stepik.org/ru"
+                            target="blanc">stepik.org</a></li>
+                    <li>Train programming skills on <a href="https://www.codewars.com/" target="blanc">codewars.com</a>
                     </li>
                 </ul>
             </section>
             <section class="education">
-                <h3>Education</h3>
-                <p>Volzhsky University after V.N. Tatischev</br>2002-2007</br>Qualification: philologist (Germanic
-                    Philology)</p>
+                <h3 class="section_header">Education</h3>
+                <p>Volzhsky University after V.N. Tatischev</p>
+                <p>2002-2007</p>
+                <p>Qualification: Philologist (Germanic Philology)</p>
             </section>
             <section class="english">
-                <h3>English</h3>
-                <p>Intermediate level</p>
+                <h3 class="section_header">English</h3>
+                <p>Intermediate level (B1+)</p>
             </section>
         </main>
         <footer>
-            <p>Thank you for attention!</br>I will be glad to cooperate with you!</p>
+            <details>
+                <summary class="footer_text">I'll be glad to cooperate with you!</summary>
+                <p class="footer_text">Thanks for your attention! :)</p>
+            </details>
         </footer>
     </div>
 </body>
